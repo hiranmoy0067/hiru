@@ -1,0 +1,150 @@
+<div class="text-center">
+<h2 style="background-color:powderblue;color:red;">Lovers Of The Red Sky <br>
+
+According to Nielsen Korea, the September 7, episode of SBS’s “Lovers of the Red Sky” recorded average nationwide ratings of 9.6 percent <h2>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Lovers of the Red Sky</title>
+    <!-- Bootstrap 3 -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <style type="text/css" media="screen">
+        body {
+            padding-top: 80px;
+            bgcolor: blue;
+        }
+        #trailer .modal-dialog {
+            margin-top: 200px;
+            width: 640px;
+            height: 480px;
+        }
+        .hanging-close {
+            position: absolute;
+            top: -12px;
+            right: -12px;
+            z-index: 9001;
+        }
+        #trailer-video {
+            width: 100%;
+            height: 100%;
+        }
+        .movie-tile {
+            margin-bottom: 20px;
+            padding-top: 20px;
+        }
+        .movie-tile:hover {
+            background-color: #3E8383;
+            cursor: pointer;
+            text: white;
+        }
+        .scale-media {
+            padding-bottom: 56.25%;
+            position: relative;
+        }
+        .scale-media iframe {
+            border: none;
+            height: 100%;
+            position: absolute;
+            width: 100%;
+            left: 0;
+            top: 0;
+            background-color: black;
+        }
+    </style>
+    <script type="text/javascript" charset="utf-8">
+        // Pause the video when the modal is closed
+        $(document).on('click', '.hanging-close, .modal-backdrop, .modal', function (event) {
+            // Remove the src so the player itself gets removed, as this is the only
+            // reliable way to ensure the video stops playing in IE
+            $("#trailer-video-container").empty();
+        });
+        // Start playing the video whenever the trailer modal is opened
+        $(document).on('click', '.movie-tile', function (event) {
+            var trailerYouTubeId = $(this).attr('data-trailer-youtube-id')
+            var sourceUrl = 'http://www.youtube.com/embed/' + trailerYouTubeId + '?autoplay=1&html5=1';
+            $("#trailer-video-container").empty().append($("<iframe></iframe>", {
+              'id': 'trailer-video',
+              'type': 'text-html',
+              'src': sourceUrl,
+              'frameborder': 0
+            }));
+        });
+        // Animate in the movies when the page loads
+        $(document).ready(function () {
+          $('.movie-tile').hide().first().show("fast", function showNext() {
+            $(this).next("div").show("fast", showNext);
+          });
+        });
+    </script>
+</head>
+
+  <body>
+    <!-- Trailer Video Modal -->
+    <div class="modal" id="trailer">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <a href="#" class="hanging-close" data-dismiss="modal" aria-hidden="true">
+            <img src="https://lh5.ggpht.com/v4-628SilF0HtHuHdu5EzxD7WRqOrrTIDi_MhEG6_qkNtUK5Wg7KPkofp_VJoF7RS2LhxwEFCO1ICHZlc-o_=s0#w=24&h=24"/>
+          </a>
+          <div class="scale-media" id="trailer-video-container">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Main Page Content -->
+    <div class="container">
+      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Made by ༆𝕳ì𝕽ü࿐®™</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      
+<div class="col-md-6 col-lg-4 movie-tile text-center">
+           <video width="700" height="350" src="https://storage.googleapis.com/323211/_QSFR9OYZKIQ/st22_lovers-of-the-red-sky-2021-episode-1-HD.mp4?vip=246.171.151.14"controls></video>
+    <h2>EPISODE, 1</h2>
+    <h5><b>Support: </b> my telegram channel </h5>
+    <h5><b>Category: </b>K Drama </h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center">
+     <video width="700" height="350" src="https://storage.googleapis.com/silken-gadget-323202/Q868QNGFPKVG/24d_1630424283.24.2_276675.mp4?vip=136.9.55.239"controls></video>
+    <h2>EPISODE, 2</h2>
+    <h5><b>Support: </b> my telegram channel </h5>
+    <h5><b>Category: </b>K Drama </h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center">
+    
+    
+     <video width="700" height="350" src="https://storage.googleapis.com/silken-gadget-323202/456QO4C6RROV/24d_1630942743.24.4_276897.mp4?vip=242.252.216.202"controls></video>
+
+    <h2>EPISODE, 3</h2>
+    <h5><b>Support: </b> my telegram channel </h5>
+    <h5><b>Category: </b>K Drama </h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center">
+
+
+     <video width="700" height="350" src="https://storage.googleapis.com/silken-gadget-323202/D1JKYSOX7H3D/24d_1631028362.24.5_276898.mp4?vip=22.192.15.115"controls></video>
+
+
+    <h2>EPISODE, 4</h2>
+    <h5><b>Support: </b> my telegram channel </h5>
+    <h5><b>Category: </b>K Drama </h5>
+</div>
+
+    </div>
+  </body>
+</html>
+© 2021 made by ༆𝕳ì𝕽ü࿐®™, 𝕷𝖔𝖛𝖊𝖗𝖘 𝖔𝖋 𝖙𝖍𝖊 𝖗𝖊𝖉 𝖘𝖐𝖞
+
